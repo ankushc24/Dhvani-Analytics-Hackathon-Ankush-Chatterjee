@@ -1,0 +1,23 @@
+I chose Convolutional Neural Networks (CNNs) for defect detection and classification into categories like "good," "flashes," and "cuts" due to their ability to capture spatial hierarchical features in images, learn complex visual patterns automatically, handle variations in defect appearance and orientation, generalize well to new data, and scale effectively based on task complexity. CNNs are robust to transformations, making them suitable for real-world manufacturing scenarios where defects can vary in shape, texture, and location within images. 
+
+
+Convolutional Neural Networks (CNNs):
+CNNs are a class of deep learning models primarily used for image recognition and processing tasks.
+
+It's architecture is divided into 3 parts:-
+Convolutional Layer:
+The convolutional layer is the fundamental building block of CNNs.
+It performs convolution operations on input data using learnable filters or kernels.
+Convolution involves sliding the filter over the input data, performing element-wise multiplication, and summing the results to produce feature maps.
+
+Pooling Layer:
+The pooling layer is used to reduce the spatial dimensions (width and height) of feature maps while retaining important information.
+Common pooling operations include max pooling and average pooling.
+Max pooling retains the maximum value within a defined pool size, effectively capturing the most salient features.
+Average pooling calculates the average value within the pool, which can help in achieving spatial invariance and reducing overfitting.
+Pooling helps in reducing computational complexity, controlling overfitting, and improving the model's ability to generalize to new data.
+Output Layer:
+The output layer is the final layer in a CNN and is responsible for producing the network's predictions or outputs.
+
+The output layer's neurons represent the class probabilities, and the predicted class is often the one with the highest probability.
+

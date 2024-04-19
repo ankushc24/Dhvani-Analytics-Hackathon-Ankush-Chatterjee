@@ -1,0 +1,26 @@
+I would opt for Convolutional Neural Networks (CNNs) deep learning model for detecting size mismatches in pairs of footwear due to their exceptional ability to process image-based data effectively. 
+By training a CNN for binary classification (matched or mismatched pairs), the model can learn to distinguish between correctly paired shoes and instances where different sizes are mistakenly paired. 
+CNNs are designed to automatically learn intricate patterns and features from images, making them ideal for tasks like identifying differences in shoe sizes. 
+
+
+Convolutional Neural Networks (CNNs):
+CNNs are a class of deep learning models primarily used for image recognition and processing tasks.
+
+It's architecture is divided into 3 parts:-
+Convolutional Layer:
+The convolutional layer is the fundamental building block of CNNs.
+It performs convolution operations on input data using learnable filters or kernels.
+Convolution involves sliding the filter over the input data, performing element-wise multiplication, and summing the results to produce feature maps.
+
+Pooling Layer:
+The pooling layer is used to reduce the spatial dimensions (width and height) of feature maps while retaining important information.
+Common pooling operations include max pooling and average pooling.
+Max pooling retains the maximum value within a defined pool size, effectively capturing the most salient features.
+Average pooling calculates the average value within the pool, which can help in achieving spatial invariance and reducing overfitting.
+Pooling helps in reducing computational complexity, controlling overfitting, and improving the model's ability to generalize to new data.
+Output Layer:
+The output layer is the final layer in a CNN and is responsible for producing the network's predictions or outputs.
+We will have 2 neurons in output layer since we need to perform binary classification i.e 0 or 1 non matched or matched.
+
+The output layer's neurons represent the class probabilities, and the predicted class is often the one with the highest probability.
+
